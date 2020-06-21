@@ -2,10 +2,11 @@
   "name": "learn-pegjs",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "test": "karma start",
     "build": "webpack -p",
+    "clean": "rm -rf dist",
     "start": "node ."
   },
   "author": "",
