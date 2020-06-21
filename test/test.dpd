@@ -1,0 +1,4 @@
+process: <Event> # [State] => <Action>
+resolve: <Action> => [State]
+render: [State] => [UI]
+
