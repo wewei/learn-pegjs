@@ -1,0 +1,5 @@
+combine: (DocumentModel, UtilityModel) => ViewModel
+apply: @ApplyingOp => DocumentModel => DocumentModel
+process: @Event => ViewModel => (@LocalOp, @Action)
+updateUtilityModel: @Action => UtilityModel => UtilityModel
+logLocalOp: @LocalOp => UndoRedoStack => (@ApplyingOp, UndoRedoStack)
